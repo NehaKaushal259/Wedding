@@ -8,7 +8,7 @@ The wedding planner website includes several pages related to weddings such as w
 
 
 # 🚀 Features
-
+``` text
 💍 Elegant Wedding Landing Page
 🧭 Fixed Navigation Bar
 🖼️ Hero Section with Background Image
@@ -21,7 +21,7 @@ The wedding planner website includes several pages related to weddings such as w
 ✨ Hover Effects & Transitions
 📱 Structured Frontend Layout
 🎨 Fully Custom CSS Styling
-
+```
 
 
 # 🛠️ Tech Stack
@@ -38,7 +38,7 @@ The wedding planner website includes several pages related to weddings such as w
 
 
 # 📂 Folder Structure
-
+``` text
 Wedding_Project/
 │
 ├── Images/
@@ -53,10 +53,10 @@ Wedding_Project/
 ├── index.html
 ├── style.css
 └── README.md
-
+```
 
 # 🧠 Project Sections
-
+``` text
 📌 Hero Section
  -- Background image landing page
  -- Fixed navigation menu
@@ -91,12 +91,12 @@ Wedding_Project/
  -- Number
  -- Address
  -- Message section
-
+```
 
  # 🎯 Project Objective
 
 The main objective of this project was to strengthen frontend development fundamentals by building a complete multi-section static website using HTML and CSS.
-
+``` text
 This project helped in improving:
  -- Website structuring
  -- CSS positioning
@@ -104,5 +104,6 @@ This project helped in improving:
  -- Hover animations
  -- Navigation design
  -- Card layouts
+```
  -- Form styling
  -- UI/UX understanding
