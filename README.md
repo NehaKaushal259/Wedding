@@ -32,7 +32,19 @@ The wedding planner website includes several pages related to weddings such as w
 # Screenshots
 
 <p>
-  <img src="" />
+  <img src="./Images/image1.png" />
+</p>
+
+<p>
+  <img src="./Images/image2.png" />
+</p>
+
+<p>
+  <img src="./Images/image3.png" />
+</p>
+
+<p>
+  <img src="./Images/image4.png" />
 </p>
 
 
