@@ -104,6 +104,6 @@ This project helped in improving:
  -- Hover animations
  -- Navigation design
  -- Card layouts
-```
  -- Form styling
  -- UI/UX understanding
+```
