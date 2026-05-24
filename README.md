@@ -19,7 +19,7 @@ The wedding planner website includes several pages related to weddings such as w
 ✉️ Contact Form UI
 📰 Blog Section
 ✨ Hover Effects & Transitions
-📱 Structured Frontend Layout
+📱 Structured Frontend and Responsive Layout
 🎨 Fully Custom CSS Styling
 ```
 
@@ -41,10 +41,6 @@ The wedding planner website includes several pages related to weddings such as w
 
 <p>
   <img src="./Images/image3.png" />
-</p>
-
-<p>
-  <img src="./Images/image4.png" />
 </p>
 
 
@@ -117,5 +113,6 @@ This project helped in improving:
  -- Navigation design
  -- Card layouts
  -- Form styling
+ -- Responsive UI Design
  -- UI/UX understanding
 ```
