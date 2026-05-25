@@ -40,7 +40,7 @@ The wedding planner website includes several pages related to weddings such as w
 </p>
 
 <p>
-  <img src="./Images/image3.pngg" />
+  <img src="./Images/image3.png" />
 </p>
 
 
