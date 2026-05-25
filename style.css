@@ -29,7 +29,7 @@ a{
 
 .Home-bg{
     width:100%;
-    height:100vh;
+    height:52rem;
     object-fit:cover;
     position:absolute;
     top:0;
@@ -38,6 +38,10 @@ a{
     filter:brightness(55%);
 }
 
+.Home a.active{
+    color:#e11d48;
+    font-weight:600;
+}
 
 
    /* NAVBAR */
@@ -421,25 +425,44 @@ main{
     max-width:1200px;
 }
 
-table{
+.contact form{
     width:100%;
+}   
+
+.input-box{
+    margin-bottom:20px;
 }
 
-input[type=text],
-input[type=address]{
+.contact input,
+.contact textarea{
     width:100%;
     padding:18px;
     border:1px solid #dbeafe;
     border-radius:10px;
     outline:none;
-    margin:12px 0;
     font-size:16px;
+    resize:none;
+    margin-bottom: 1.5rem;
 }
 
-input:focus{
+.contact textarea{
+    height:150px;
+    width: 67rem;
+}
+
+.contact input:focus,
+.contact textarea:focus{
     border-color:#e11d48;
 }
 
+.info{
+    display: flex;
+}
+
+.input-box1{
+    width: 39rem;
+    margin-right: 1.5rem;
+}
 .contact button{
     margin-top:20px;
     width:180px;
@@ -455,6 +478,14 @@ input:focus{
 
 .contact button:hover{
     background:#be123c;
+}
+
+#successMessage{
+    margin-top:20px;
+    font-size:18px;
+    font-weight:600;
+    color:green;
+    text-align:center;
 }
 
 
@@ -514,143 +545,135 @@ input:focus{
 
    /* FOOTER */
 
+/* FOOTER */
+
 footer{
-    background:white;
-    padding:30px;
-    text-align:center;
-    font-size:18px;
+    background:#020617;
+    padding:70px 8% 20px;
+    margin-top:80px;
+}
+
+.footer-container{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:40px;
+    border-bottom:1px solid rgba(255,255,255,0.1);
+    padding-bottom:40px;
+}
+
+.footer-box{
+    flex:1;
+    min-width:250px;
+}
+
+.footer-logo{
+    color:white;
+    font-size:32px;
+    margin-bottom:20px;
+}
+
+.footer-logo span{
+    color:#e11d48;
+}
+
+.footer-box p{
+    color:#cbd5e1;
+    line-height:30px;
+    font-size:15px;
+}
+
+.footer-box h3{
+    color:white;
+    margin-bottom:20px;
+    font-size:24px;
+}
+
+.footer-box a{
+    display:block;
+    color:#cbd5e1;
+    margin-bottom:12px;
+    transition:0.3s;
+    font-size:16px;
+}
+
+.footer-box a:hover{
+    color:#e11d48;
+    transform:translateX(5px);
+}
+
+.footer-icons{
+    display:flex;
+    gap:15px;
+    margin-top:20px;
+}
+
+.footer-icons a{
+    width:45px;
+    height:45px;
+    background:#1e293b;
+    border-radius:50%;
     display:flex;
     justify-content:center;
-    gap:10px;
-    flex-wrap:wrap;
+    align-items:center;
+    color:white;
+    font-size:18px;
+    transition:0.3s;
 }
 
-footer a{
-    color:#0f172a;
-    font-weight:500;
+.footer-icons a:hover{
+    background:#e11d48;
+    transform:translateY(-5px);
 }
 
-.end-1 a{
-    padding-right:10px;
-    border-right:2px solid #0f172a;
+.footer-bottom{
+    text-align:center;
+    padding-top:25px;
 }
 
-
-
-
-
-
-
-
-        /* RESPONSIVE DESIGN */
-
-
-
-
-@media(max-width:992px){
-
-    .p{
-        font-size:55px;
-        line-height:70px;
-    }
-
-    .divider{
-        display:none;
-    }
-
-    .clients{
-        flex-direction:column;
-        align-items:center;
-    }
+.footer-bottom p{
+    color:#94a3b8;
+    font-size:15px;
 }
 
 
-@media(max-width:768px){
 
-    .logo{
-        flex-direction:column;
-        gap:15px;
-    }
 
-    .menu{
-        flex-wrap:wrap;
-        justify-content:center;
-        gap:15px;
-    }
+/* BACK TO TOP BUTTON */
 
-    .written{
-        text-align:center;
-        align-items:center;
-        padding:120px 20px;
-    }
+#topBtn{
+    position:fixed;
+    bottom:30px;
+    right:30px;
 
-    .p{
-        font-size:42px;
-        line-height:55px;
-    }
+    width:55px;
+    height:55px;
 
-    .engagement-1,
-    .engagement-2,
-    .engagement-3,
-    .team-1,
-    .team-2,
-    .blog-1{
-        width:100%;
-    }
+    border:none;
+    border-radius:50%;
 
-    .contact{
-        padding:20px;
-    }
+    background:#e11d48;
+    color:white;
 
-    .contact table,
-    .contact tr,
-    .contact td{
-        display:block;
-        width:100%;
-    }
+    font-size:20px;
+    cursor:pointer;
 
-    .H3,
-    .h3-1,
-    .h3-2-creative,
-    .h3-3,
-    .h3-3-blogs{
-        font-size:32px;
-    }
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+
+    display:none;
+
+    transition:0.3s;
+    z-index:999;
+}
+
+#topBtn:hover{
+    background:#be123c;
+    transform:translateY(-5px);
 }
 
 
-@media(max-width:480px){
 
-    .Logo-1{
-        font-size:26px;
-    }
 
-    .menu{
-        gap:10px;
-    }
 
-    .Home a{
-        font-size:16px;
-    }
 
-    .written h2{
-        font-size:24px;
-    }
 
-    .p{
-        font-size:34px;
-        line-height:45px;
-    }
-
-    .written button{
-        width:160px;
-    }
-
-    .main-1 span{
-        font-size:55px;
-    }
-
-    .main-1 h3{
-        font-size:24px;
-    }
-}

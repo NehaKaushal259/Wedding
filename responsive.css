@@ -1,0 +1,168 @@
+        /* RESPONSIVE DESIGN */
+
+
+
+@media(max-width:1440px){
+    .written{
+        margin-top: 10rem;
+        margin-bottom: 10rem;
+    }
+}
+
+
+@media(max-width:1024px){
+    main{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .engagement-1{
+        width: 300px;
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+    }
+    .engagement-1 p{
+        font-size: small;
+    }
+    .engagement-2{
+        width: 300px;
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+    }
+    .engagement-2 p{
+        font-size: small;
+    }
+    .engagement-3{
+        width: 300px;
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+    }
+    .engagement-3 h3{
+        font-size: 26px;
+    }
+    .engagement-3 p{
+        font-size: small;
+    }
+
+
+    .container-4{
+        width: 26rem;
+    }
+    .container-5{
+        width: 3rem;
+    }
+    .container-6{
+        width: 26rem;
+    }
+
+
+    .team-1{
+        width: 300px;
+    }
+    .team-2{
+        width: 300px;
+    }
+    .team-3{
+        width: 300px;
+    }
+
+    .contact textarea{
+        width: 52rem
+    }
+
+    .blog-1{
+        width: 300px;
+    }
+    .button-3{
+        margin-left: 4rem;
+    }
+}
+
+
+@media(max-width:768px){
+    .written h2{
+        font-size: 28px;
+    }
+    .p{
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .engagement-1{
+        width: 330px;
+        padding-left: 1.3rem;
+        padding-right: 1.3rem;
+    }
+    .engagement-2{
+        width: 330px;
+        padding-left: 1.3rem;
+        padding-right: 1.3rem;
+    }
+    .engagement-3{
+        width: 330px;
+        padding-left: 1.3rem;
+        padding-right: 1.3rem;
+    }
+
+    .container-1 .Image-1{
+        width: 330px;
+    }
+
+    .container-5{
+        display: none;
+    }
+    .container-4{
+        width: 40rem;
+    }
+    .container-6{
+        width: 40rem;
+    }
+    .client-1{
+        margin-left: 1rem;
+        width: 36rem;
+    }
+
+    .team-1{
+        width: 330px;
+    }
+    .team-2{
+        width: 330px;
+    }
+    .team-3{
+        width: 330px;
+    }
+
+    .contact textarea{
+        width: 37rem
+    }
+
+    .blog-1{
+        width: 330px;
+    }
+}
+
+
+@media(max-width:426px){
+    .written h2{
+        font-size: 24px;
+    }
+    .p{
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .client-1{
+        margin-left: 1rem;
+        width: 19rem;
+    }
+
+    .info{
+        display: block;
+    }
+    .contact input,
+    .contact textarea{
+        width: 19rem
+    }
+    .contact{
+        padding: 30px;
+    }
+}
